@@ -1,0 +1,8 @@
+E:\WebProject\WebAPI\WebAPI.DLL\bin\Debug\WebAPI.DLL.dll
+E:\WebProject\WebAPI\WebAPI.DLL\bin\Debug\WebAPI.DLL.pdb
+E:\WebProject\WebAPI\WebAPI.DLL\bin\Debug\MySql.Data.dll
+E:\WebProject\WebAPI\WebAPI.DLL\bin\Debug\WebAPI.DBUtility.dll
+E:\WebProject\WebAPI\WebAPI.DLL\bin\Debug\WebAPI.DBUtility.pdb
+E:\WebProject\WebAPI\WebAPI.DLL\obj\Debug\WebAPI.DLL.csprojResolveAssemblyReference.cache
+E:\WebProject\WebAPI\WebAPI.DLL\obj\Debug\WebAPI.DLL.dll
+E:\WebProject\WebAPI\WebAPI.DLL\obj\Debug\WebAPI.DLL.pdb

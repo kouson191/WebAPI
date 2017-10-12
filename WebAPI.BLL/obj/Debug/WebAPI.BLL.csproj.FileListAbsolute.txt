@@ -1,0 +1,4 @@
+E:\WebProject\WebAPI\WebAPI.BLL\bin\Debug\WebAPI.BLL.dll
+E:\WebProject\WebAPI\WebAPI.BLL\bin\Debug\WebAPI.BLL.pdb
+E:\WebProject\WebAPI\WebAPI.BLL\obj\Debug\WebAPI.BLL.dll
+E:\WebProject\WebAPI\WebAPI.BLL\obj\Debug\WebAPI.BLL.pdb

@@ -1,0 +1,5 @@
+E:\WebProject\WebAPI\WebAPI.DBUtility\bin\Debug\WebAPI.DBUtility.dll
+E:\WebProject\WebAPI\WebAPI.DBUtility\bin\Debug\WebAPI.DBUtility.pdb
+E:\WebProject\WebAPI\WebAPI.DBUtility\bin\Debug\MySql.Data.dll
+E:\WebProject\WebAPI\WebAPI.DBUtility\obj\Debug\WebAPI.DBUtility.dll
+E:\WebProject\WebAPI\WebAPI.DBUtility\obj\Debug\WebAPI.DBUtility.pdb
