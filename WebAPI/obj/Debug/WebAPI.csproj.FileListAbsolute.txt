@@ -7,7 +7,6 @@ E:\WebProject\WebAPI\WebAPI\bin\Microsoft.Data.Edm.dll
 E:\WebProject\WebAPI\WebAPI\bin\Microsoft.Data.OData.dll
 E:\WebProject\WebAPI\WebAPI\bin\Microsoft.Web.Infrastructure.dll
 E:\WebProject\WebAPI\WebAPI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
-E:\WebProject\WebAPI\WebAPI\bin\MySql.Data.dll
 E:\WebProject\WebAPI\WebAPI\bin\Newtonsoft.Json.dll
 E:\WebProject\WebAPI\WebAPI\bin\System.Net.Http.Formatting.dll
 E:\WebProject\WebAPI\WebAPI\bin\System.Spatial.dll
@@ -23,7 +22,6 @@ E:\WebProject\WebAPI\WebAPI\bin\System.Web.Razor.dll
 E:\WebProject\WebAPI\WebAPI\bin\System.Web.WebPages.Deployment.dll
 E:\WebProject\WebAPI\WebAPI\bin\System.Web.WebPages.dll
 E:\WebProject\WebAPI\WebAPI\bin\System.Web.WebPages.Razor.dll
-E:\WebProject\WebAPI\WebAPI\bin\WebAPI.DBUtility.dll
 E:\WebProject\WebAPI\WebAPI\bin\WebAPI.DLL.dll
 E:\WebProject\WebAPI\WebAPI\bin\WebAPI.Models.dll
 E:\WebProject\WebAPI\WebAPI\bin\WebGrease.dll
@@ -43,7 +41,6 @@ E:\WebProject\WebAPI\WebAPI\bin\System.Web.Http.OData.xml
 E:\WebProject\WebAPI\WebAPI\bin\Microsoft.Data.Edm.xml
 E:\WebProject\WebAPI\WebAPI\bin\Microsoft.Data.OData.xml
 E:\WebProject\WebAPI\WebAPI\bin\System.Spatial.xml
-E:\WebProject\WebAPI\WebAPI\bin\WebAPI.DBUtility.pdb
 E:\WebProject\WebAPI\WebAPI\bin\WebAPI.DLL.pdb
 E:\WebProject\WebAPI\WebAPI\bin\WebAPI.Models.pdb
 E:\WebProject\WebAPI\WebAPI\bin\zh-Hans\EntityFramework.resources.dll
@@ -89,3 +86,7 @@ E:\WebProject\WebAPI\WebAPI\bin\zh-Hans\System.Spatial.resources.dll
 E:\WebProject\WebAPI\WebAPI\bin\zh-Hant\System.Spatial.resources.dll
 E:\WebProject\WebAPI\WebAPI\obj\Debug\WebAPI.dll
 E:\WebProject\WebAPI\WebAPI\obj\Debug\WebAPI.pdb
+E:\WebProject\WebAPI\WebAPI\bin\WebAPI.Utility.dll
+E:\WebProject\WebAPI\WebAPI\bin\WebAPI.Utility.pdb
+E:\WebProject\WebAPI\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
+E:\WebProject\WebAPI\WebAPI\bin\log4net.dll

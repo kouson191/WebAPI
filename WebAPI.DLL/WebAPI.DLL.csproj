@@ -40,8 +40,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="WebAPI.DBUtility">
-      <HintPath>..\WebAPI.DBUtility\bin\Debug\WebAPI.DBUtility.dll</HintPath>
+    <Reference Include="WebAPI.Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebAPI.Utility\bin\Debug\WebAPI.Utility.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

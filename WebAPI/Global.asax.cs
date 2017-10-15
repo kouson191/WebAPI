@@ -14,6 +14,7 @@ namespace WebAPI
 
     public class WebApiApplication : System.Web.HttpApplication
     {
+        readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
@@ -22,6 +23,13 @@ namespace WebAPI
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+               
+            System.IO.FileInfo fileinfo = new System.IO.FileInfo(Server.MapPath("~/App_Data/log4net.Config"));
+            log4net.Config.XmlConfigurator.Configure(fileinfo);
+
+            log.Info("网站己启动......");
+             
         }
     }
 }
