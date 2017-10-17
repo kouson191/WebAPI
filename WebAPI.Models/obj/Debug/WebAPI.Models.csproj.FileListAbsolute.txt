@@ -1,4 +1,0 @@
-E:\WebProject\WebAPI\WebAPI.Models\bin\Debug\WebAPI.Models.dll
-E:\WebProject\WebAPI\WebAPI.Models\bin\Debug\WebAPI.Models.pdb
-E:\WebProject\WebAPI\WebAPI.Models\obj\Debug\WebAPI.Models.dll
-E:\WebProject\WebAPI\WebAPI.Models\obj\Debug\WebAPI.Models.pdb
