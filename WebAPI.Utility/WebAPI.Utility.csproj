@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="ConvertJson.cs" />
     <Compile Include="Log.cs" />
+    <Compile Include="ModelHandler.cs" />
     <Compile Include="MySqlDbHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

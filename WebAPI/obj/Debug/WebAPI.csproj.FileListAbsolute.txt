@@ -88,5 +88,9 @@ E:\WebProject\WebAPI\WebAPI\obj\Debug\WebAPI.dll
 E:\WebProject\WebAPI\WebAPI\obj\Debug\WebAPI.pdb
 E:\WebProject\WebAPI\WebAPI\bin\WebAPI.Utility.dll
 E:\WebProject\WebAPI\WebAPI\bin\WebAPI.Utility.pdb
-E:\WebProject\WebAPI\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
 E:\WebProject\WebAPI\WebAPI\bin\log4net.dll
+E:\WebProject\WebAPI\WebAPI\bin\Jil.dll
+E:\WebProject\WebAPI\WebAPI\bin\Sigil.dll
+E:\WebProject\WebAPI\WebAPI\bin\Jil.pdb
+E:\WebProject\WebAPI\WebAPI\bin\Jil.xml
+E:\WebProject\WebAPI\WebAPI\bin\Sigil.xml
