@@ -9,6 +9,7 @@ using WebAPI.Models;
 
 namespace WebAPI.MyControllers
 {
+    [RequestAuthorize] //票据验证特征
     public class FoodController : ApiController
     {
         [HttpGet]
