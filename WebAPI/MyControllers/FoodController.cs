@@ -7,6 +7,7 @@ using System.Text;
 using System.Web.Http;
 using System.Web.Http.Filters;
 using WebAPI.Models;
+using WebAPI.Common;
 
 namespace WebAPI.MyControllers
 {
@@ -44,10 +45,9 @@ namespace WebAPI.MyControllers
             return result;
         }
 
-
-
         [HttpGet]
-        [CrossSite]
+        [CrossSite] //跨域
+        [DeflateCompression] //压缩操作
         public HttpResponseMessage  GetAllFood()
         {
             List<Food> foods = new List<Food>();

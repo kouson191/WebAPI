@@ -191,3 +191,4 @@ E:\Project\WebAPI\WebAPI\bin\zh-Hant\System.Spatial.resources.dll
 E:\Project\WebAPI\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
 E:\Project\WebAPI\WebAPI\obj\Debug\WebAPI.dll
 E:\Project\WebAPI\WebAPI\obj\Debug\WebAPI.pdb
+E:\WebProject\WebAPI\WebAPI\bin\Ionic.Zlib.dll

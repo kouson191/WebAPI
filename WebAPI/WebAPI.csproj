@@ -41,6 +41,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Ionic.Zlib, Version=1.9.1.5, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Ionic.Zlib.1.9.1.5\lib\Ionic.Zlib.dll</HintPath>
+    </Reference>
     <Reference Include="Jil">
       <HintPath>..\packages\Jil.2.15.4\lib\net45\Jil.dll</HintPath>
     </Reference>
@@ -186,7 +190,9 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Common\CacheHelper.cs" />
+    <Compile Include="Common\CompressionHelper.cs" />
     <Compile Include="Common\CrossSiteAttribute.cs" />
+    <Compile Include="Common\DeflateCompressionAttribute.cs" />
     <Compile Include="Common\RequestAuthorizeAttribute.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
