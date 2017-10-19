@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Text;
 using System.Web.Http;
-using System.Web.Http.Filters; 
+using System.Web.Http.Filters;
 using WebAPI.Models;
 
 namespace WebAPI.MyControllers
 {
-    [RequestAuthorize] //票据验证特征
+    //[RequestAuthorize] //票据验证特征
     public class FoodController : ApiController
     {
         [HttpGet]
@@ -25,10 +26,29 @@ namespace WebAPI.MyControllers
             return food;
         }
 
+        [HttpGet]
+        [CrossSite]
+        public HttpResponseMessage GetFood()
+        {
+            Food food = new Food();
+            food.ID = "234";
+            food.Name = "番茄炒蛋";
+            food.Introduce = "这是最新菜肴";
+            food.Price = 10;
+            food.Grade = "A+";
+
+           string str =  Jil.JSON.Serialize<Food>(food);
+          
+            HttpResponseMessage result = new HttpResponseMessage { Content = new StringContent(str, Encoding.GetEncoding("UTF-8"), "application/json") };
+
+            return result;
+        }
+
+
 
         [HttpGet]
         [CrossSite]
-        public List<Food> GetAllFood()
+        public HttpResponseMessage  GetAllFood()
         {
             List<Food> foods = new List<Food>();
 
@@ -42,7 +62,12 @@ namespace WebAPI.MyControllers
                 food.Grade = "A+";
                 foods.Add(food);
             }
-            return foods;
+
+            string str = Jil.JSON.Serialize<List<Food>>(foods);
+          
+            HttpResponseMessage result = new HttpResponseMessage { Content = new StringContent(str, Encoding.GetEncoding("UTF-8"), "application/json") };
+
+            return result;
         }
 
     }
